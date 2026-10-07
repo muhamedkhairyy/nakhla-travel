@@ -1,6 +1,6 @@
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { Layout, SEO } from "@/components/layout";
-import Hero from "@/sections/hero";
+import Hero from "@/sections/Hero";
 import About from "@/sections/About";
 import Reviews from "@/sections/Reviews/Reviews";
 import ContactUS from "@/sections/ContactUS";

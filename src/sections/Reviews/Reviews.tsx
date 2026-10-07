@@ -20,7 +20,9 @@ export default function Reviews() {
 
     const breakpoints = {
         320: { slidesPerView: 1 },
-        1024: { slidesPerView: 3 }
+        640: { slidesPerView: 2 },
+        768: { slidesPerView: 4 },
+        1024: { slidesPerView: 4 }
     }
     return (
         <section className="my-20 px-5 md:px-0" id="reviews">
@@ -56,7 +58,7 @@ export default function Reviews() {
                                     alt={`review${index + 1}`}
                                     width={300}
                                     height={300}
-                                    className="rounded-lg md:w-[600px] md:h-[600px] w-full h-full shadow-sm hover:shadow-md transition-shadow duration-300"
+                                    className="rounded-lg w-full max-w-[260px] md:max-w-[320px] h-auto shadow-sm hover:shadow-md transition-shadow duration-300"
                                 />
                             </motion.div>
                         </SwiperSlide>
